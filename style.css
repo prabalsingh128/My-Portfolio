@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #081018; */
+
+}
+
+header {
+    background-color: #081018;
+    padding: 25px;
+}
+h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline;
+    position: relative;
+    left: 50px;
+}
+
+nav {
+    position: absolute;
+    top: 26px;
+    right: 5%;
+}
+
+a {
+    margin-right: 25px;
+    text-decoration: none;
+    display: inline;
+    color: #ffffff;
+
+
+}
+
+#Home {
+    background-color: #081018;
+    /* position: relative;
+    left: 50px; */
+    color: #ffffff;
+    padding: 25px;
+
+}
+
+h3 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+    display: inline;
+    text-align: start;
+    position: relative;
+    left: 50px;
+    margin-top: 5px;
+}
+
+h4 {
+    display: inline;
+    position: relative;
+    left: 50px;
+}
+
+p {
+    display: inline;
+    position: relative;
+    left: 50px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* display: inline; */
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+#button {
+    background-color: #081018;
+     color: #ffffff;
+    /* padding: 3px;
+     margin: 2px; */
+    padding: 20px;
+    /* position: relative;
+    left: 25px; */
+    button {
+        color:#ffffff;
+        background-color: #2098f5;
+        padding: 5px;
+        border-radius: 8%;
+        /* margin-right:px; */
+        margin-left: 50px;
+    }
+}
+#project {
+    background-color: #2098f5;
+    color: #ffffff;
+    position: relative;
+    left: 25px;
+    margin: 2px;
+    padding: 3px;
+}
+
+#About {
+    background-color: #102030;
+    color: #ffffff;
+    padding: 25px;
+}
