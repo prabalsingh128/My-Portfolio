@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form </title>
+    <link rel="stylesheet" href="student.css">
+</head>
+
+<body>
+    <form action="#">
+        <h1>Student Registration Form </h1>
+        <div>
+            <label for="firstname"> First Name : </label>
+            <input type="text" id="firstname" placeholder="Enter first name">
+        </div>
+        <div>
+            <label for="lastname">Last Name :</label>
+            <input type="text" placeholder="Enter last name">
+        </div>
+        <div>
+            <label for="email"> Email :</label>
+            <input type="email" id="email" placeholder="Enter Your email">
+        </div>
+        <div>
+            <label for="password"> Enter password :</label>
+            <input type="password" id="password" placeholder="password">
+        </div>
+        <div>
+            <label for="phone"> Mobile :</label>
+            <input type="tel" id="phone" placeholder="Mobile number">
+        </div>
+        <div>
+            <label for="dateofbirth"> DOB :</label>
+            <input type="date" id="dateofbirth">
+        </div>
+        <div><label for="gender"> Gender :</label>
+            <input type="radio" name="gender" id="Male" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label>
+        </div>
+        <div>
+            <label for="course">course :</label>
+            <select name="course" id="course">
+                <option value="B.Tech">B.Tech </option>
+                <option value="M.Tech">M.Tech </option>
+                <option value="BCA">BCA</option>
+                <option value="MCA">MCA </option>
+            </select>
+        </div>
+        <div>
+            <label for="address">Address :</label>
+             <textarea name="address" id="address"></textarea>
+        </div>
+        <div>
+            <label for="hobbies"> Hobbies :</label>
+            <textarea name="hobbies" id="hobbies"></textarea>
+        </div>
+        <div>
+            
+            <button type="submit">Submit</button>
+            <button type="reset">Reset </button>
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>
