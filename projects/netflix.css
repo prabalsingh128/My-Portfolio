@@ -10,7 +10,7 @@
 } */
 
 header {
-    background-image: url(./assets/netflix_background_img.jpg);
+    background-image: url(../assets/netflix_background_img.jpg);
     height: 80vh;
     position: relative;
     background-size: cover;
@@ -187,43 +187,43 @@ header .box {
 }
 
 .movie-1 {
-    background-image: url(./assets/vishwanath&sons.webp);
+    background-image: url(../assets/vishwanath&sons.webp);
 }
 
 .movie-2 {
-    background-image: url(./assets/modha-rathri.webp);
+    background-image: url(../assets/modha-rathri.webp);
 }
 
 .movie-3 {
-    background-image: url(./assets/dhamaal-4.webp);
+    background-image: url(../assets/dhamaal-4.webp);
 }
 
 .movie-4 {
-    background-image: url(./assets/talent.webp);
+    background-image: url(../assets/talent.webp);
 }
 
 .movie-5 {
-    background-image: url(./assets/irumudi.webp);
+    background-image: url(../assets/irumudi.webp);
 }
 
 .movie-6 {
-    background-image: url(./assets/lust=stories.webp);
+    background-image: url(../assets/lust=stories.webp);
 }
 
 .movie-7 {
-    background-image: url(./assets/alpha.webp);
+    background-image: url(../assets/alpha.webp);
 }
 
 .movie-8 {
-    background-image: url(./assets/coaktail.webp);
+    background-image: url(../assets/coaktail.webp);
 }
 
 .movie-9 {
-    background-image: url(./assets/gatta-kusthi.webp);
+    background-image: url(../assets/gatta-kusthi.webp);
 }
 
 .movie-10 {
-    background-image: url(./assets/ohh-my-dog.webp);
+    background-image: url(../assets/ohh-my-dog.webp);
 }
 
 .movies {
@@ -372,4 +372,292 @@ p {
 
 .footer-content p {
     padding: 32px 20px;
+}
+
+/* MOBILE PHONES */
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        min-height: 650px;
+        background-position: center;
+    }
+
+    header .box {
+        height: 100%;
+        min-height: 650px;
+    }
+
+    .navbar {
+        padding: 20px;
+        align-items: center;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 100px;
+        height: auto;
+    }
+
+    .nav_op {
+        margin: 0 0 0 auto;
+        gap: 8px;
+    }
+
+    .lan {
+        width: 20px;
+    }
+
+    .nav_select {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .sign_in {
+        padding: 7px 10px;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    .content {
+        margin: 100px auto 0;
+        padding: 20px;
+    }
+
+    .center h1 {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+
+    .center p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .content h3 {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .in-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding-top: 16px;
+    }
+
+    .in-btn input,
+    .second input {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 450px;
+        height: 55px;
+        padding: 12px;
+    }
+
+    .in-btn button,
+    .second button {
+        width: auto;
+        min-width: 150px;
+        height: 50px;
+        padding: 10px 20px;
+        margin: 0;
+    }
+
+    .main-content h2 {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .movie {
+        gap: 14px;
+        padding: 15px 20px 25px;
+    }
+
+    .movies {
+        flex-basis: 140px;
+        height: 200px;
+    }
+
+    .series {
+        font-size: 75px;
+        bottom: -10px;
+        left: -10px;
+    }
+
+    .contain {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .reason-to-join h2 {
+        margin: 20px;
+    }
+
+    .box1 {
+        box-sizing: border-box;
+        width: calc(50% - 24px);
+        min-height: 200px;
+        height: auto;
+        margin: 6px;
+        padding: 12px;
+    }
+
+    .box1 h3 {
+        font-size: 18px;
+    }
+
+
+    .box1 p {
+        font-size: 14px;
+    }
+
+    .faqs h2 {
+        margin: 25px 20px;
+    }
+
+    .que {
+        margin: 0 20px 8px;
+        font-size: 17px;
+    }
+
+    .que p {
+        padding: 20px;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .que p img {
+        width: 22px;
+        min-width: 22px;
+    }
+
+    .membership {
+        padding: 25px 20px;
+        line-height: 1.5;
+    }
+
+    .second {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-content h3 {
+        padding: 20px 0;
+        font-size: 16px;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
+
+    .footer-select {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .footer-content p {
+        padding: 20px 0;
+        font-size: 13px;
+    }
+}
+
+
+/* SMALL MOBILE PHONES */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 16px;
+    }
+
+    .logo img {
+        width: 85px;
+    }
+
+    .nav_op {
+        gap: 5px;
+    }
+
+    .nav_select {
+        max-width: 85px;
+        padding: 5px 3px;
+    }
+
+    .sign_in {
+        padding: 6px 8px;
+        margin: 0;
+    }
+
+    .content {
+        margin-top: 80px;
+        padding: 15px;
+    }
+
+    .center h1 {
+        font-size: 26px;
+    }
+
+    .center p {
+        font-size: 16px;
+    }
+
+    .content h3 {
+        font-size: 14px;
+    }
+
+    .movies {
+        flex-basis: 120px;
+        height: 175px;
+    }
+
+    .series {
+        font-size: 65px;
+    }
+
+    .box1 {
+        width: calc(100% - 30px);
+        min-height: 150px;
+        margin: 6px 0;
+    }
+
+    .faqs h2,
+    .reason-to-join h2 {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .que {
+        margin: 0 12px 8px;
+        font-size: 15px;
+    }
+
+    .que p {
+        padding: 18px 14px;
+    }
+
+    .second input {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+
+    .footer-links {
+        column-gap: 10px;
+    }
+
+    .footer-links a {
+        font-size: 13px;
+    }
 }
