@@ -10,7 +10,7 @@
 } */
 
 header {
-    background-image: url(./netflix_background_img.jpg);
+    background-image: url(./assets/netflix_background_img.jpg);
     height: 80vh;
     position: relative;
     background-size: cover;
@@ -48,7 +48,6 @@ header .box {
     width: 30px;
     background-color: white;
 }
-
 /* .nav_op i {
     color: rgb(171, 20, 20);
 } */
@@ -188,43 +187,43 @@ header .box {
 }
 
 .movie-1 {
-    background-image: url(./vishwanath&sons.webp);
+    background-image: url(./assets/vishwanath&sons.webp);
 }
 
 .movie-2 {
-    background-image: url(./modha-rathri.webp);
+    background-image: url(./assets/modha-rathri.webp);
 }
 
 .movie-3 {
-    background-image: url(./dhamaal-4.webp);
+    background-image: url(./assets/dhamaal-4.webp);
 }
 
 .movie-4 {
-    background-image: url(./talent.webp);
+    background-image: url(./assets/talent.webp);
 }
 
 .movie-5 {
-    background-image: url(./irumudi.webp);
+    background-image: url(./assets/irumudi.webp);
 }
 
 .movie-6 {
-    background-image: url(./lust=stories.webp);
+    background-image: url(./assets/lust=stories.webp);
 }
 
 .movie-7 {
-    background-image: url(./alpha.webp);
+    background-image: url(./assets/alpha.webp);
 }
 
 .movie-8 {
-    background-image: url(./coaktail.webp);
+    background-image: url(./assets/coaktail.webp);
 }
 
 .movie-9 {
-    background-image: url(./gatta-kusthi.webp);
+    background-image: url(./assets/gatta-kusthi.webp);
 }
 
 .movie-10 {
-    background-image: url(./ohh-my-dog.webp);
+    background-image: url(./assets/ohh-my-dog.webp);
 }
 
 .movies {
@@ -271,13 +270,12 @@ header .box {
 }
 
 .que p {
-    background-color: rgb(49, 48, 48);
+       background-color: rgb(49, 48, 48);
     padding: 25px 30px;
     display: flex;
     justify-content: space-between;
 
 }
-
 .que P img {
     width: 3vw;
     color: white;
@@ -345,13 +343,12 @@ p {
 }
 
 .footer-select {
-    display: inline;
+    display:inline;
     text-align: center;
     gap: 0px;
     /* border: 2px solid white; */
 }
-
-.footer-select img {
+.footer-select img{
     width: 20px;
     background-color: white;
 }
